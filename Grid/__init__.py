@@ -225,7 +225,5 @@ class grid:
                 sys.exit()
             self.next()
             time.sleep(1)
-
-## date objects should be entered in year, month, day format
-## in the test below, 2002 is the year, 9 is the month, and 18 is the day
+            
 grid(date(2002, 9, 18), xbuffer=3, ybuffer=8).run(scale=20, buffer=3)
